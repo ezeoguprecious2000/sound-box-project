@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 45px;
+    border-bottom: 0.5px solid rgba(214, 0, 0, 0.5);
+    padding-top: 15px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+font-size: 1.2em;
+line-height: 22px;
+}
+li{
+    list-style: none;
+}
+nav ul  {
+    display: flex;
+    padding-left: 230px;
+    gap: 90px;}
+
+    .active{
+        border-bottom: 5px solid rgba(214, 0, 0, 0.786) ;
+        border-radius: 2.5px;
+       
+    }
+    .hero{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 350px;
+        padding-left: 45px;
+        
+        
+        color: white;
+        padding-top: 45px;
+    }
+    .search{
+        background-color: #292929;
+        width: 650px;
+         height: 60px;
+         
+         border-radius: 20px;
+         display: flex;
+         justify-content: center;
+        align-items: center;}
+        .search p{
+            background-color: #292929;
+            margin-right: 250px;
+            margin-left: 10px;
+            font-weight: 400;
+            font-size: 0.875em;
+            line-height: 17px;
+            color: rgba(255, 255, 255, 0.6);
+           
+        }
+        i .fa-solid .fa-magnifying-glass .fa-l{
+            background-color: #292929 ;
+        }
+    
+       div .sign {
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            gap: 55px;
+            
+        }
+        .signup{
+            color: #767373;
+            font-size: 1.5em;
+            font-weight: 600;}
+             .login{
+                width: 150px;
+                font-size: 1.5em;
+            font-weight: 600;
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px;
+             }
+             .trending{
+                color: #fff;
+                
+             }
+             div.t{
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                gap: 1050px;
+                padding-top: 30px;
+                padding-left: 65px;
+                padding-bottom: 20px;
+                }
+
+                h2{
+                    font-weight: 600;
+                    font-size: 2.5em;
+                    line-height: 3em;}
+                    
+                    div.t p {
+                        font-weight: 500;
+                        font-size: 1.4em;
+                        line-height: 24px;
+                    }
+                    div.trendingcat{
+                        display: flex;
+                        gap: 80px;
+                        padding-inline: 75px;
+
+                        justify-content: center;
+                    align-items: center;}
+                        
+                        div.trendingcat p{
+                            width: 800px;
+                           height: 65px;
+                           background: #292929; 
+                           border-radius: 15px;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                           font-weight: 500;
+                           font-size: 1.3em;
+                           line-height: 1em;
+                        }
+                         div.trendingcat p.more{
+                            width: 300px;
+                            background-color: red;}
+                            div.trendingcat p.more i{
+                                background-color: red;
+                            }
+                            div.trendingcat p.all{
+                                background-color: red;
+
+                            }
+                            .trendingimages{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding-top: 45px;
+                                gap: 45px;
+                               
+
+                            }
+                        .cons{
+                            display: flex;
+                            padding-left: 250px;
+                            gap: 20px;}
+                            .cons i {
+                                font-size: 2.5em;
+                            }
+                            div.artist p{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                            }
+                            .dcontent{
+                                font-weight: 600;
+                                font-size: 1.8em;
+                                line-height: 2em;
+                            }
+                            .name{
+                        font-weight: 500;
+                        font-size: 1.1em}
+                        .hit{
+                            color: #fff;
+                        }
+                    .h{
+                        display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                gap: 1050px;
+                padding-top: 60px;
+                padding-left: 65px;
+                padding-bottom: 20px;
+                
+                    }
+                    .h p{
+                        font-weight: 500;
+                        font-size: 1.4em;
+                        line-height: 24px; 
+                    }
+                    div.hitimages{
+                        display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+                                padding-top: 0px;
+                                gap: 50px;
+                                padding-inline: 87px;
+
+                    }
+                    div.hartist p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    div.hartist p.hcontent{
+                        font-weight: 600;
+                        font-size: 1.8em;
+                        line-height: 2em;
+                    }
+                    div.hartist p.hname{
+                        font-weight: 500;
+                        font-size: 1.1em
+
+                       
+                    }
+                    .pop{
+                        color: #fff;
+                    }
+                    .p{
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                gap: 1050px;
+                padding-top: 60px;
+                padding-left: 65px;
+                padding-bottom: 20px;}
+                
+                div.p p{
+                    font-weight: 500;
+                        font-size: 1.4em;
+                        line-height: 24px;}
+                        div .popimages{
+                                display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+                                padding-top: 0px;
+                                gap: 50px;
+                                padding-inline: 80px;}
+                                
+                                div.popimages p{
+                                    display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   text-align: center;
+                                }
+                                div .popimages p.pcontent{
+                                    font-weight: 600;
+                                    font-size: 1.8em;
+                                     line-height: 2em;}
+                                     div .popimages p.pname{
+                                        font-weight: 500;
+                                        font-size: 1.1em;
+                                     }
+                                     .popart{
+                                        color: #fff;
+                                     }
+                                     div.popartimages{
+                                        display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+                                
+                                gap: 50px;
+                                padding-inline: 80px;
+                                     }
+                                     div .popartimages p.pa{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        font-weight: 600;
+                                        font-size: 1.8em;
+                                        line-height: 2.4em;
+                                     }
+                                     div .popartimages p.paname{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        font-weight: 600;
+                                        font-size: 1.2em;
+                                        line-height: 1.8em
+                                     }
+                                     div.popartimages p.paname:hover {
+                                        cursor: pointer;
+                                        text-decoration: underline red 3px;
+                                     }
+
+
+                 
+             
